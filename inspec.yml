@@ -1,0 +1,11 @@
+name: profile-aws
+title: AWS Example Profile
+maintainer: Martez Reed
+copyright: Martez Reed
+copyright_email: martez.reed@greenreedtech.com
+license: Apache-2.0
+summary: Demonstrates the use of an InSpec Compliance Profile on AWS
+version: 1.0.0
+
+supports:
+  - platform: aws
