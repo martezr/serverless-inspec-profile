@@ -8,6 +8,6 @@ control 'iam_password_policy_expiration' do
     it { should require_symbols }
     it { should require_numbers }
     its('minimum_password_length') { should be > 8 }
-    its('max_password_age_in_days') { should be 90 }
+    its('max_password_age_in_days') { should be > 90 }
   end
 end
